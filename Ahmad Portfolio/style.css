@@ -1,0 +1,659 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: Arial, sans-serif;
+}
+
+body {
+     background-color: #151D28;
+}
+
+.navbar {
+     display: flex;
+     justify-content: space-around;
+     height: 60px;
+     align-items: center;
+}
+
+.navbar ul {
+     list-style: none;
+
+
+}
+
+.navbar ul li {
+     display: inline-block;
+     margin: 0px 15px;
+     position: relative;
+}
+
+.navbar ul li a {
+     color: rgb(202, 248, 128);
+     font-size: 10px;
+     text-decoration: none;
+}
+
+.logo img {
+     width: 80px;
+     height: 60px;
+}
+
+.navbar ul li::after {
+     content: "";
+     width: 0%;
+     height: 2px;
+     background-color: rgb(202, 248, 128);
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     transition: 0.2s;
+}
+
+.navbar ul li:hover::after {
+     width: 100%;
+}
+
+/* First Section  */
+.first-section {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 50px;
+}
+
+.content {
+     max-width: 450px;
+}
+
+.content div {
+     font-size: 30px;
+     color: white;
+     font-weight: 700;
+}
+
+.content span {
+     font-size: 30px;
+     color: white;
+     font-weight: 700;
+     color: rgb(202, 248, 128);
+}
+
+.sec-img {
+     width: 300px;
+     height: 300px;
+     border: none;
+}
+
+#element {
+     color: rgb(202, 248, 128);
+}
+
+.content p {
+     color: white;
+     font-size: 11px;
+     margin-top: 50px;
+     line-height: 25px;
+     max-width: 400px;
+}
+
+.btn {
+     margin: 50px 55px;
+
+}
+
+.btn a {
+     text-decoration: none;
+     border: none;
+     background-color: rgb(202, 248, 128);
+     border-radius: 4px;
+     padding: 10px;
+     font-size: 11px;
+     color: black;
+     text-align: center;
+
+}
+
+/* Second Section  */
+.sec-section {
+     display: flex;
+     justify-content: space-around;
+}
+
+.thir-img {
+     width: 300px;
+     height: 350px;
+     margin-top: 50px;
+}
+
+.sec-content {
+     max-width: 400px;
+}
+
+.sec-content h2 {
+     font-size: 13px;
+     color: rgb(202, 248, 128);
+     text-transform: uppercase;
+}
+
+.sec-content h1 {
+     font-size: 20px;
+     color: white;
+     padding-top: 20px;
+}
+
+.sec-content p {
+     color: rgb(161, 159, 159);
+     font-size: 12px;
+     padding-top: 20px;
+     line-height: 20px;
+}
+
+.skill {
+     display: flex;
+     flex-direction: column;
+     padding-top: 20px;
+     padding: 0px 20px;
+}
+
+.skill h3 {
+     color: white;
+     font-size: 15px;
+     padding-top: 25px;
+}
+
+.icon-two {
+     display: flex;
+     flex-direction: column;
+
+}
+
+.icon-two i {
+     padding-top: 50px;
+}
+
+.box1 {
+     display: flex;
+}
+
+.box2 {
+     display: flex;
+}
+
+.box3 {
+     display: flex;
+}
+
+.boxes h3 {
+     color: white;
+     padding-top: 25px;
+     font-size: 15px;
+}
+
+.boxes i {
+     margin: 50px 20px;
+     color: rgb(202, 248, 128);
+
+}
+
+.fa-laptop {
+     font-size: 15px;
+     width: 17px;
+     border-radius: 150px;
+     background-color: #1f2732;
+     padding: 10px;
+
+}
+
+.fa-pen-ruler {
+     font-size: 15px;
+     width: 17px;
+     border-radius: 150px;
+     background-color: #1f2732;
+     padding: 10px;
+}
+
+.fa-laptop-code {
+     font-size: 15px;
+     width: 17px;
+     border-radius: 150px;
+     background-color: #1f2732;
+     padding: 10px;
+}
+
+/* Third Section  */
+.th-sec {
+     text-align: center;
+     margin-top: 100px;
+}
+
+.th-sec p {
+     font-size: 15px;
+     color: rgb(202, 248, 128);
+}
+
+.th-sec h2 {
+     font-size: 20px;
+     color: white;
+     padding-top: 15px;
+}
+
+.th-sec h3 {
+     font-size: 15px;
+     color: rgb(202, 248, 128);
+     padding-top: 50px;
+     text-transform: uppercase;
+}
+
+.th-box {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 80px;
+     flex-wrap: wrap;
+}
+
+.boxest {
+     width: 250px;
+     height: 380px;
+     background-color: #2d333d;
+     border-radius: 5px;
+}
+
+.th-img1 {
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+}
+
+.th-img1 img {
+     width: 230px;
+     height: 150px;
+     border-radius: 5px;
+}
+
+.th-content {
+
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 30px;
+}
+
+.th-content h4 {
+     color: white;
+     font-size: 15px;
+}
+
+.th-content p {
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(161, 159, 159);
+     padding-top: 30px;
+}
+
+.th-btn1 {
+     margin-top: 20px;
+     margin-left: 30px;
+}
+
+.th-btn1 a {
+     text-decoration: none;
+     border: 1px solid rgb(202, 248, 128);
+     font-size: 11px;
+     color: rgb(202, 248, 128);
+     border-radius: 5px;
+     padding: 7px 18px;
+     transition: 0.2s;
+}
+
+.th-btn1 a:hover {
+     background-color: rgb(202, 248, 128);
+     color: black;
+}
+
+.tbox4 {
+     width: 250px;
+     height: 380px;
+     background-color: #2d333d;
+     border-radius: 5px;
+     margin-top: 50px;
+     margin-left: 15px;
+}
+
+.t4-img {
+     display: flex;
+     justify-content: center;
+
+}
+
+.t4-img img {
+     width: 230px;
+     height: 150px;
+     border-radius: 5px;
+     margin-top: 25px;
+
+}
+
+.t4-con {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 30px;
+}
+
+.t4-con h4 {
+     color: white;
+     font-size: 15px;
+}
+
+.t4-con p {
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(161, 159, 159);
+     padding-top: 10px;
+}
+
+.t4-btn {
+     margin-top: 20px;
+     margin-left: 30px;
+}
+
+.t4-btn a {
+     text-decoration: none;
+     border: 1px solid rgb(202, 248, 128);
+     font-size: 11px;
+     color: rgb(202, 248, 128);
+     border-radius: 5px;
+     padding: 7px 18px;
+     transition: 0.2s;
+}
+
+.t4-btn a:hover {
+     background-color: rgb(202, 248, 128);
+     color: black;
+}
+
+.f-content {
+     text-align: center;
+     margin-top: 30px;
+}
+
+.f-content h3 {
+     font-size: 15px;
+     color: rgb(202, 248, 128);
+     padding-top: 50px;
+     text-transform: uppercase;
+}
+
+.four-boxes {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 80px;
+}
+
+.fboxes {
+
+     width: 250px;
+     height: 330px;
+     background-color: #2d333d;
+     border-radius: 5px;
+}
+
+.f1-img {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+.f1-img img {
+     width: 230px;
+     height: 150px;
+     border-radius: 5px;
+}
+
+.f1-content {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 25px;
+}
+
+.f1-content h4 {
+     color: white;
+     font-size: 15px;
+}
+
+.f1-content p {
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(161, 159, 159);
+     padding-top: 15px;
+}
+
+.f1-btn {
+     margin-top: 15px;
+     margin-left: 25px;
+}
+
+.f1-btn a {
+     text-decoration: none;
+     border: 1px solid rgb(202, 248, 128);
+     font-size: 11px;
+     color: rgb(202, 248, 128);
+     border-radius: 5px;
+     padding: 7px 18px;
+     transition: 0.2s;
+}
+
+.f1-btn a:hover {
+     background-color: rgb(202, 248, 128);
+     color: black;
+}
+
+/* Five Section  */
+.five {
+     text-align: center;
+     margin-top: 100px;
+}
+
+.five p {
+     font-size: 15px;
+     color: rgb(202, 248, 128);
+}
+
+.five h2 {
+     font-family: 20px;
+     color: white;
+     padding-top: 15px;
+}
+
+.five-boxes {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+}
+
+.five-box {
+     width: 380px;
+     height: 250px;
+     background-color: #2d333d;
+     border-radius: 5px;
+     border-bottom: 2px solid rgb(202, 248, 128);
+
+}
+
+.five-con {
+     max-width: 300px;
+     margin-top: 30px;
+     margin-left: 30px;
+}
+
+.five-con h2 {
+     font-size: 20px;
+     color: rgb(202, 248, 128);
+}
+
+.five-con p {
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(161, 159, 159);
+     padding-top: 20px;
+}
+
+.five-icon {
+     display: flex;
+     padding: 30px 0px;
+}
+
+.five-icon i {
+     font-size: 12px;
+     color: rgb(161, 159, 159);
+     padding: 0px 30px;
+}
+
+.five-icon h6 {
+     font-size: 12px;
+     color: rgb(161, 159, 159);
+
+}
+
+.five-icon2 {
+     display: flex;
+     padding: 10px 0px;
+}
+
+.five-icon2 i {
+     font-size: 12px;
+     color: rgb(161, 159, 159);
+     padding: 0px 30px;
+}
+
+.five-icon2 h6 {
+     font-size: 12px;
+     color: rgb(161, 159, 159);
+}
+
+.five-con2 {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding-top: 50px;
+     
+}
+
+.five-con2 h2 {
+
+     font-size: 20px;
+     color: rgb(202, 248, 128);
+}
+.five-con2 p
+{
+     font-size: 12px;
+     line-height: 20px;
+     color: rgb(161, 159, 159);
+     padding-top: 20px;
+}
+.last-btn
+{
+      margin-top: 25px;
+      text-align: center;
+}
+.last-btn a {
+     text-decoration: none;
+     border: 1px solid rgb(202, 248, 128);
+     font-size: 11px;
+     color: rgb(202, 248, 128);
+     border-radius: 5px;
+     padding: 7px 18px;
+     transition: 0.2s;
+}
+
+.last-btn a:hover {
+     background-color: rgb(202, 248, 128);
+     color: black;
+}
+
+/* Footer  */
+.foot1
+{
+     margin-top: 100px;
+     height: 200px;
+     border: 2px solid rgb(202, 248, 128);  
+     border-bottom: none;
+     display: flex;
+     justify-content: space-around;
+     padding-top: 50px;
+  
+}
+.first-f h2
+{
+      color: white;
+      font-size: 25px;
+}
+.first-f p
+{
+      line-height: 20px;
+      margin-top: 10px;
+      font-size: 10px;
+      color:rgb(202, 248, 128) ;
+}
+.sec-f h3
+{
+      font-size: 15px;
+      color: rgb(202, 248, 128);
+}
+.sec-f a
+{
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+}
+.sec-f a:hover
+{
+      color: rgb(202, 248, 128);
+}
+.last-contact h3
+{
+     font-size: 15px;
+     color: rgb(202, 248, 128);
+      
+}
+.cont-f1
+{
+      display: flex;
+      margin-top: 30px;
+     
+}
+.cont-f1 i
+{
+      font-size: 10px;
+      color: rgb(202, 248, 128);
+      padding: 0px 10px;
+}
+.cont-f1 h6
+{
+      color: white;
+      font-size: 10px;
+}
+.cont-f2
+{
+      display: flex;
+      margin-top: 30px;
+     
+}
+.cont-f2 i
+{
+     font-size: 10px;
+     color: rgb(202, 248, 128);
+     padding: 0px 10px;
+}
+.cont-f2 h6
+{
+      font-size: 10px;
+      color: white;
+    
+}
