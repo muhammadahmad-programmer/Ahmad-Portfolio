@@ -1,0 +1,294 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: Arial;
+}
+body
+{
+      background-color: black;
+}
+
+.background-image {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netflix.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+
+}
+
+.logo {
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+     align-items: center;
+}
+
+.logo h1 {
+     color: red;
+     font-size: 2em;
+}
+
+.btn button {
+     width: 60px;
+     padding: 3px;
+     border: none;
+     background-color: red;
+     color: white;
+     border-radius: 4px;
+}
+
+.btn button:hover {
+     background-color: rgb(180, 11, 11);
+}
+
+.section {
+     text-align: center;
+     padding-top: 70px;
+}
+
+.section h1 {
+     color: white;
+     font-weight: 900;
+     font-size: 2.5em;
+}
+
+.section :nth-child(2) {
+     color: white;
+     margin-top: 10px;
+     font-size: 1em;
+     font-weight: 600;
+}
+
+.section :nth-child(3) {
+     font-size: 11px;
+     color: white;
+     padding-top: 30px;
+}
+
+.getstarted {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 15px;
+}
+
+.button input {
+     border: 0.1px solid white;
+     padding: 12px;
+     width: 30vw;
+     border-radius: 4px;
+     background-color: rgba(0, 0, 0, 0.7);
+     color: rgba(255, 255, 255, 0.96);
+     font-size: 10px;
+     font-weight: 600;
+}
+.button button {
+     border: none;
+     width: 20vw;
+     padding: 12px;
+     border-radius: 4px;
+     background-color: red;
+     color: white;
+     font-weight: 700;
+}
+
+.button button:hover {
+     background-color: rgb(208, 13, 13);
+}
+/* Hero Section  */
+
+.hero-section {
+     display: flex;
+     background-color: black;
+     justify-content: space-evenly;
+     border-top: 0.5px solid white;
+}
+.box {
+     height: 250px;
+     width: 20%;
+     /* border: 2px solid rgb(225, 221, 221); */
+     margin-top: 20px;
+     border-radius: 5px;
+     transition: 0.5s;
+
+}
+
+.box-image {
+     background-size: cover;
+     height: 250px;
+     border-radius: 5px;
+}
+
+.box:hover {
+     transform: translatey(-15px);
+}
+/* Panel Section Two  */
+
+.panel-one {
+     display: flex;
+     background-color: black;
+     justify-content: space-evenly;
+
+}
+.boxpanel
+{
+     height: 185px;
+     width: 18%;
+     /* border: 2px solid rgb(236, 234, 234); */
+     margin-top: 80px;
+     border-radius: 10px;
+     background-color: rgb(73, 14, 3);
+     padding: 25px 15px;
+     display: flex;
+     justify-content: center;
+     transition: 0.5s;
+}
+.h1
+{
+      color: white;
+      background-color: black;
+      margin-left: 40px;
+      position: relative;
+      top: 60px;
+}
+.h1 h1
+{
+      font-size: 20px;
+}
+.content h2
+{
+      color: white;
+      font-size: 17px;
+      padding-top: 10px;
+
+}
+.content p
+{
+      color: white;
+      font-size: 12px;
+      padding-top: 15px;
+}
+.icon
+{
+      display: flex;
+      align-items: flex-end;
+}
+.icon i
+{
+      display: block;
+      font-size: 40px;
+      color: rgb(242, 16, 16);
+     
+}
+.boxpanel:hover
+{
+     transform: translatey(-15px);
+}
+.h2
+{
+     color: white;
+     background-color: black;
+     margin-left: 40px;
+     position: relative;
+     top: 35px;
+}
+.h2 h1
+{
+     font-size: 20px;
+}
+.que-button
+{
+      padding-top: 40px;
+      margin-left: 40px;
+
+}
+.que-button button
+{
+      display: block;
+      width: 80vw;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: left;
+      background-color: rgb(64, 60, 60);
+      color: white;
+      font-weight: 700;
+      border: none;
+      font-size: 1em;
+}
+.que-button button:hover
+{
+      background-color: rgb(79, 78, 78);
+}
+.another-para
+{
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
+}
+.another-para p
+{
+      color: white;
+      font-size: 11px;
+}
+.getstarted-sec
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 15px;
+}
+.button-sec-input input
+{
+     border: 0.1px solid white;
+     padding: 12px;
+     width: 45vw;
+     border-radius: 4px;
+     background-color: rgba(0, 0, 0, 0.7);
+     color: rgba(255, 255, 255, 0.96);
+     font-size: 10px;
+     font-weight: 600;
+}
+.button-sec-input button
+{
+     border: none;
+     width: 20vw;
+     padding: 12px;
+     border-radius: 4px;
+     background-color: red;
+     color: white;
+     font-weight: 700;
+}
+.button-sec-input button:hover
+{
+     background-color: rgb(208, 13, 13);
+}
+footer
+{
+      margin-top: 30px;
+      height: 300px;
+}
+.footer
+{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 30px;
+}
+.footer a
+{
+      display: block;
+      margin-top: 10px;
+      color:#dddddd;
+      font-size: 10px;
+}
+.net
+{
+      margin-left: 100px;
+      padding-top: 60px;
+}
+.net  p
+{
+       color: #dddddd;
+       font-size: 10px;      
+}
